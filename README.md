@@ -4,15 +4,14 @@
 
 This project involves the design and implementation of a distributed embedded system for automotive monitoring. The system comprises three microcontroller-based units:&#8203;:contentReference[oaicite:0]{index=0}
 
-- **Distance Sensor Unit:** :contentReference[oaicite:1]{index=1}
-- **Fuel and Speed Sensor Unit:** :contentReference[oaicite:2]{index=2}
-- **Display Unit:** :contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}
+- **Distance Sensor Unit:** : Utilizes ultrasonic sensors to detect obstacles and measure distances.
+- **Fuel and Speed Sensor Unit:** :Monitors fuel consumption and vehicle speed using digital input signals.
+- **Display Unit:** :Receives data from sensor units and provides real-time feedback to the driver through an LCD display and auditory alerts.
 
-:contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}&#8203;:contentReference[oaicite:7]{index=7}
 
 ## 🛠️ Features
 
-- **Custom Serial Communication Protocol:** :contentReference[oaicite:8]{index=8}
-- **Modular Codebase:** :contentReference[oaicite:9]{index=9}
-- **Real-Time Data Processing:** :contentReference[oaicite:10]{index=10}
-- **User-Friendly Interface:** :contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
+- **Custom Serial Communication Protocol:** :Ensures reliable data exchange between units with error detection capabilities.
+- **Modular Codebase:** :Structured for scalability and ease of maintenance, with separate modules for each unit.
+- **Real-Time Data Processing:** :Provides immediate feedback to the driver based on sensor data.
+- **User-Friendly Interface:** :Displays critical information and alerts through an LCD and auditory signals.
